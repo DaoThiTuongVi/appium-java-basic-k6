@@ -11,6 +11,7 @@ public class Lab01 {
         List<Integer> arrayList = new ArrayList<>();
         boolean isContinuing = true;
 
+
         do {
             System.out.println("=====MENU======");
             System.out.println("1. Add number into ArrayList");
