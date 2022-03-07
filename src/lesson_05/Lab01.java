@@ -8,15 +8,16 @@ public class Lab01 {
     public static void main(String[] args) {
         int option;
         Map<Integer, String> studentHashMap = new HashMap<>();
+        Scanner scanner = new Scanner(System.in);
 
         do{
             System.out.println("1. Input student info");
             System.out.println("2. Find Student by ID");
             System.out.println("3. Exit!");
 
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Pls select an option from the menu: ");
-            option = scanner.nextInt();
+            option = Integer.parseInt(scanner.nextLine());
+            scanner.nextLine();
 
             switch (option){
                 case 1:
